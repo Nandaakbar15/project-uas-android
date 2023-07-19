@@ -243,7 +243,7 @@ class _GamesPageState extends State<GamesPage> {
                           ),
                           Image.asset(
                             "assets/images/persona3reload.png",
-                            width: 188,
+                            width: 150,
                             height: 100,
                             alignment: Alignment.centerRight,
                           ),

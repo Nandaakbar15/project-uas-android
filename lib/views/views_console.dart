@@ -209,8 +209,8 @@ class _ConsolePageState extends State<ConsolePage> {
                           ),
                           Image.asset(
                             "assets/images/nintendo.png",
-                            width: 188,
-                            height: 100,
+                            width: 150,
+                            height: 98,
                             alignment: Alignment.centerRight,
                           ),
                         ],

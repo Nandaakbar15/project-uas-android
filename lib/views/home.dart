@@ -19,8 +19,8 @@ class HalamanUtama extends StatelessWidget {
               children: [
                 SizedBox(height: 10),
                 Container(
-                  height: 200,
-                  width: 500,
+                  height: 155,
+                  width: 388,
                   color: Colors.green,
                   child: Row(
                     children: [
@@ -59,7 +59,7 @@ class HalamanUtama extends StatelessWidget {
                             Image.asset(
                               "assets/images/kaitokid.png",
                               alignment: Alignment.centerLeft,
-                              width: 99,
+                              width: 88,
                               height: 70,
                             ),
                           ],

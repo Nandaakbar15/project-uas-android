@@ -203,8 +203,10 @@ class _RegisterPageState extends State<RegisterPage> {
                       style: ElevatedButton.styleFrom(
                           backgroundColor: Colors.blue),
                       onPressed: () {
-                        Navigator.popUntil(
-                            context, ModalRoute.withName('/lib/login.dart'));
+                        Navigator.pushReplacement(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => LoginPage()));
                       },
                       child: const Text("Login"))
                 ],
